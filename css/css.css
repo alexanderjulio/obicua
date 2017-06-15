@@ -1,0 +1,199 @@
+/*body{
+	background-image: url('../images/ima5.jpeg');
+	background-position: absolute;
+	width: 100%;
+	height: 100%;
+}*/
+/*font-family: 'Montserrat', sans-serif; Fuete titulos*/
+/*font-family: 'Allerta', sans-serif;   Fuente texto*/
+
+body {
+	font-family: 'Allerta', sans-serif;
+}
+li {
+	color: white;
+}
+a {
+	color: #97C93E;
+	text-decoration: none;
+}
+.contenedor {
+	/*background: #1C3643;*/
+	width: 900px;
+	margin: auto;
+	position: relative;
+}
+.linea {
+	background: #0791E6;
+  width: 100%;
+	color: white;
+}
+.title {
+	color: #0791E6;
+}
+.menu {
+	padding-top: 40px;
+	display: inline-block;
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+}
+.menu li {
+	display: inline-block;
+	margin-left: 20px;
+}
+.logotipo {
+	display: inline-block;
+	margin-left: 0;
+}
+.portada {
+  background-image: url('../images/aviso.jpg');
+  background-size: cover;
+  padding: 326px;
+}
+.portada button {
+  margin-bottom: 70px;
+}
+.contenido {
+	color: #1C3643;
+}
+.icon {
+	display: inline-block;
+	padding: 0;
+}
+.header {
+	position: relative;
+}
+.transicion {
+	transition: .3s;
+}
+.escala:hover {
+  transform: scale(1.1	);
+}
+.transicion1 {
+	transition: .3s;
+}
+.escala1:hover {
+  transform: scale(1.5);
+}
+.container {
+	width: 1020px;
+	height: 220px;
+	margin: 0 auto;
+}
+.view2 {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+	border: 10px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+}
+.view2 img {
+	display: block;
+	position: relative;
+	transition: all 0.2s linear;
+}
+.view2 .mask2 {
+	opacity: 0;
+	background-color: hsla(34, 93%, 45%, 0.7);
+	transition: all 0.4s ease-in-out;
+}
+.view2 .mask2, .view2 .content {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+.view2 h2 {
+	opacity: 0;
+	transform: translateY(-100px);
+	transition: all 0.2s ease-in-out;
+}
+.view2 h2 {
+	text-transform: uppercase;
+	color: #1C3643;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	background: hsla(0, 0%, 0%, 0.8);
+	margin: 20px 0 0 0;
+}
+.view2 p {
+	opacity: 0;
+	transform: translateY(100px);
+	transition: all 0.2s linear;
+}
+.view2 p {
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 12px;
+	position: relative;
+	color: #1C3643;
+	padding: 10px 20px 20px;
+	text-align: center;
+}
+
+/*Aqui comienza el flex del pie de pagina footer*/
+.footer {
+  background: #FF7F38;
+  padding: 50px 10px;
+  float: left;
+  width: 100%;
+}
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contacto img {
+  display: block;
+}
+.contacto strong {
+  display: block;
+}
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0px 0px 24px;
+}
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+.formulario {
+  display: flex;
+  width: 550px;
+  color: white;
+}
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
+}
+.col2 .button {
+  margin-top: 15px;
+}
+.intereses label {
+  font-size: 12px;
+}
+.formulario label, .sexo, .intereses {
+  margin-bottom: 0;
+}
+.sexo {
+  margin-top: 10px;
+}
+/*Aqui termina el footer*/
