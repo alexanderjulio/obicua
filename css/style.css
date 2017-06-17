@@ -1,4 +1,4 @@
-body {    
+hombody {    
     margin-top:77px;
     text-rendering: optimizeLegibility; 
     -webkit-font-smoothing: antialiased;    
@@ -322,7 +322,7 @@ nav #logo a {
     height:574px;
     width:100%;
     background-color: #7cb854;
-    background-image: url(../images/grupo.jpg);
+    background-image: url(../images/1.jpg);
     background-position:center;
     background-repeat:no-repeat;
     overflow-y:hidden;
@@ -481,7 +481,7 @@ nav #logo a {
 #about {
 background-color: white;
 display: block;
-background-image: url(../images/f4.jpeg);
+background-image: url(../images/12.jpeg);
 position: relative;
 z-index: 120;
 padding-top: 90px;
@@ -541,7 +541,7 @@ background-size: cover;
     padding-top: 110px;
     padding-bottom: 50px;
     background-color:white;
-    background-image: url(../images/services_bg.jpg);
+    background-image: url(../images/12.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
@@ -552,7 +552,7 @@ background-size: cover;
 }
 
 #services h2, #services p {
-    color:white;   
+    color:black;   
 }    
 
 #service_boxes {
@@ -644,15 +644,18 @@ background-size: cover;
 .icon-design:before {
 	content: "\e066";
     margin-top:1px;
+    color: red;
 }
 
 .icon-develop:before {
 	content: "\e07b";
     margin-top:4px;
+    color: red;
 }
 
 .icon-print:before {
 	content: "\e08a";
+	color: red;
 }
 
 .animbox-icon {
@@ -754,7 +757,7 @@ background-size: cover;
 	border: none;
 	display: block;
 	max-width: 100%;
-    cursor:url(../images/cursor.png),pointer;
+    /*cursor:url(../images/cursor.png),pointer;*/
     background-color:white;
     -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -926,7 +929,7 @@ background-size: cover;
 
 #team {
 padding-bottom: 90px;
-background-image: url(../images/pape1.jpg);
+background-image: url(../images/11.jpg);
 background-repeat: repeat;
 background-size: contain;
 display: block;
